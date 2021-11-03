@@ -1,0 +1,48 @@
+.contactSection {
+  padding-top: 150px;
+  height: 100vh;
+  width: 100%;
+}
+
+.contactContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contactInfo {
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contactDesc,
+.contactLabel {
+  line-height: 2em;
+  text-align: left;
+  margin: auto;
+}
+
+.contactDesc a {
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.map {
+  width: 75%;
+  margin: auto;
+}
+
+.small {
+  margin-top: 8px;
+  font-size: 12px;
+}

@@ -1,0 +1,44 @@
+.footerSection {
+  width: 100%;
+  height: 200px;
+  background: #f2a1b0;
+  border-top: 0.1em solid #fff;
+  position: relative;
+}
+
+.footerContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials {
+  display: flex;
+  list-style: none;
+}
+
+.social {
+  font-size: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.social:last-child {
+  margin-right: 0;
+}
+
+.social a {
+  color: inherit;
+}
+
+.social:hover {
+  transform: scale(1.1);
+}
+
+.footerContainer p {
+  font-size: 0.75rem;
+}
