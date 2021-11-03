@@ -9,6 +9,7 @@ import Footer from "./components/footer/Footer";
 import NotFound from "./components/notFound/NotFound";
 import MyWork from "./components/myWork/MyWork";
 import Contact from "./components/contact/Contact";
+import Faq from "./components/faq/Faq";
 
 function App() {
   const [visibleNavMenu, setVisibleNavMenu] = React.useState(false);
@@ -31,6 +32,9 @@ function App() {
         </Route>
         <Route exact path="/contact">
           <Contact />
+        </Route>
+        <Route exact path="/faq">
+          <Faq />
         </Route>
         <Route>
           <NotFound />
