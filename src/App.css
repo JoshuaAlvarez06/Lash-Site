@@ -1,5 +1,5 @@
 .section {
-  animation: fadeIn 1s;
+  animation: fadeIn 0.5s;
 }
 @-webkit-keyframes fadeIn {
   0% {

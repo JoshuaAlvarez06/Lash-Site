@@ -36,6 +36,7 @@
   text-align: center;
   left: 0;
   right: 0;
+  box-shadow: none;
 }
 
 .dropdownItem {
