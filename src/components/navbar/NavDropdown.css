@@ -34,7 +34,6 @@
   position: absolute;
   margin: 0 auto;
   text-align: center;
-  margin-top: 30px;
   left: 0;
   right: 0;
 }
@@ -60,3 +59,19 @@
   text-decoration: none;
   padding: 1em;
 }
+
+@media screen and (max-width: 768px) {
+  .dropdownItems img {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .dropdownItem {
+    font-size: 2rem;
+  }
+
+  .dropdownItems img {
+    width: 300px;
+  }
+} ;

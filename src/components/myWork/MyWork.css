@@ -1,6 +1,5 @@
 .myWorkSection {
   width: 100%;
-  padding-top: 150px;
 }
 
 .myWorkContainer {
@@ -22,7 +21,11 @@
   justify-content: center;
 }
 
-.clientExample:nth-child(2n) {
+.clientExample:first-child {
+  padding-top: 150px;
+}
+
+.clientExample:nth-child(odd) {
   background: #f2a1b0;
 }
 

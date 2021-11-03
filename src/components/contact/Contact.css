@@ -1,7 +1,8 @@
 .contactSection {
   padding-top: 150px;
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .contactContainer {
@@ -39,6 +40,7 @@
 
 .map {
   width: 75%;
+  height: 100%;
   margin: auto;
 }
 

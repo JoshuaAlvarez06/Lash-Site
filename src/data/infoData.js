@@ -11,7 +11,7 @@ export const infoDataOne = {
   image: samImage,
   alt: "Sam Moreno",
   buttonText: "Read More",
-  link: "/about",
+  link: "/my-work",
 };
 
 export const infoDataTwo = [
