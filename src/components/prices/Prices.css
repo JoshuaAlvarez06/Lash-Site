@@ -1,0 +1,34 @@
+.pricesSection {
+  width: 100%;
+  height: 100%;
+  padding-top: 150px;
+  margin-bottom: 150px;
+}
+
+.pricesContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.pricesContainer h1 {
+  margin-bottom: 2rem;
+}
+
+.prices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .prices {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -38,6 +38,11 @@
   cursor: pointer;
 }
 
+.contactDesc a:hover {
+  color: #f2a1b0;
+  border-bottom-color: #f2a1b0;
+}
+
 .map {
   width: 75%;
   height: 100%;
@@ -46,5 +51,5 @@
 
 .small {
   margin-top: 8px;
-  font-size: 12px;
+  font-size: 14px;
 }

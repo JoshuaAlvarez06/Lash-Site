@@ -19,8 +19,11 @@
   list-style: none;
 }
 
-.social {
+.social i {
   font-size: 3rem;
+}
+
+.social {
   margin-right: 3rem;
   margin-bottom: 2rem;
   margin-top: 1rem;

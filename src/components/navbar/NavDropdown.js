@@ -15,6 +15,9 @@ const NavDropdown = ({ navClickHandler }) => {
           <Link to="/my-work">MY WORK</Link>
         </li>
         <li className="dropdownItem">
+          <Link to="/prices">PRICES</Link>
+        </li>
+        <li className="dropdownItem">
           <Link to="/contact">CONTACT</Link>
         </li>
         <li className="dropdownItem">

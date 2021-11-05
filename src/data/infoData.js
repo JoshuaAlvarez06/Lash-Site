@@ -1,8 +1,8 @@
-import samImage from "../images/samImage.JPG";
-import clientOne from "../images/client1.jpeg";
-import clientTwo from "../images/client2.jpeg";
-import clientThree from "../images/client3.jpeg";
-import clientFour from "../images/client4.jpeg";
+import samImage from "../images/samImage.webp";
+import clientOne from "../images/client1.webp";
+import clientTwo from "../images/client2.webp";
+import clientThree from "../images/client3.webp";
+import clientFour from "../images/client4.webp";
 
 export const infoDataOne = {
   title: "What I Do",

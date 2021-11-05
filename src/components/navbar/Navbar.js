@@ -14,9 +14,16 @@ const Navbar = ({ navClickHandler }) => {
           <li className="menuItem">
             <Link to="/">HOME</Link>
           </li>
-          <li className="menuItem">
-            <Link to="/my-work">MY WORK</Link>
-          </li>
+          <div className="dropdown">
+            <Link className="dropbtn menuItem" to="/my-work">
+              MY WORK
+              <i className="fa fa-caret-down"></i>
+            </Link>
+            <div className="dropdown-content">
+              <Link to="/my-work">WORK</Link>
+              <Link to="/prices">PRICES</Link>
+            </div>
+          </div>
           <li className="menuItem">
             <Link to="/contact">CONTACT</Link>
           </li>

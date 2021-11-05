@@ -21,6 +21,7 @@
 
 .logo:hover {
   transform: scale(1.05);
+  color: #c58490;
 }
 
 .menuItems {
@@ -35,7 +36,6 @@
 }
 
 .menuItem:hover {
-  transform: scale(1.12);
   color: #c58490;
 }
 
@@ -57,6 +57,59 @@
 
 .bars:hover {
   transform: scale(1.1);
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  color: #f2a1b0;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+
+.dropbtn .arrow {
+  margin-left: 0.2rem;
+}
+
+.dropbtn:hover,
+.arrow:hover {
+  color: #c58490;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f2a1b0;
+  border: 1px solid #f2a1b00e;
+  min-width: 8rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a:hover {
+  transform: scale(1.05);
+}
+
+.dropdown-content a {
+  float: none;
+  font-weight: 600;
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 @media screen and (max-width: 768px) {
@@ -84,7 +137,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  li {
-    font-size: 18px;
+  li,
+  .dropbtn {
+    font-size: 18px !important;
   }
 }

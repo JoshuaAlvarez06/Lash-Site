@@ -11,6 +11,7 @@ import MyWork from "./components/myWork/MyWork";
 import Contact from "./components/contact/Contact";
 import Faq from "./components/faq/Faq";
 import Page from "./components/Page";
+import Prices from "./components/prices/Prices";
 
 function App() {
   const [visibleNavMenu, setVisibleNavMenu] = React.useState(false);
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route exact path="/my-work">
             <MyWork />
+          </Route>
+          <Route exact path="/prices">
+            <Prices />
           </Route>
           <Route exact path="/contact">
             <Contact />
