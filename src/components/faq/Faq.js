@@ -1,6 +1,7 @@
 import React from "react";
 import "./Faq.css";
 import { faqDataOne } from "../../data/faqData";
+import Accordion from "./Accordion";
 
 const Faq = () => {
   return (
@@ -11,12 +12,11 @@ const Faq = () => {
           <div className="questionContainer">
             {faqDataOne.map((question, index) => {
               return (
-                <>
-                  <div className="wrap">
-                    <p>{question.question}</p>
-                  </div>
-                  <p>{question.answer}</p>
-                </>
+                <Accordion
+                  ket={index}
+                  title={question.question}
+                  content={question.answer}
+                />
               );
             })}
           </div>
