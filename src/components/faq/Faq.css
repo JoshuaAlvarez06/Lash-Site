@@ -1,5 +1,6 @@
 .faqSection {
   width: 100%;
+  min-height: calc(100vh - 200px);
   height: 100%;
   padding-top: 150px;
   margin-bottom: 150px;
